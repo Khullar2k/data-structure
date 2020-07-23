@@ -1,21 +1,21 @@
 import java.util.Scanner;
-public class Highest {
+public class High {
 
 	public static void main(String[] args) {
 		Scanner in=new Scanner(System.in);
-		int i,j,c=0,a[],n,t;
-		a = new int[100];
+		int a,j,c=0,arr[],n,t;
+		arr = new int[100];
 		n=in.nextInt();
-		for(i=0;i<n;i++)
+		for(a=0;a<n;a++)
 		{
-			a[i]=in.nextInt();
+			arr[i]=in.nextInt();
 		}
-		j=a[0];
-		for(i=0;i<n;i++)
+		j=arr[0];
+		for(a=0;a<n;a++)
 		{
-			if(a[i+1]>a[i])
+			if(arr[a+1]>arr[a])
 			{
-				j=a[i+1];
+				j=arr[a+1];
 				
 			}
 			
